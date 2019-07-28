@@ -117,4 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 export SCREENDIR=$HOME/.screen
-alias config='/usr/bin/git --git-dir=/home/mattj/.cfg/ --work-tree=/home/mattj'
+alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
